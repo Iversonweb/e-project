@@ -1,0 +1,111 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "defaultPalette": true,
+            "palette": [
+                {
+                    "slug": "e-green",
+                    "color": "#1ca774",
+                    "name": "E-Green"
+                },
+                {
+                    "slug": "e-yellowgreen",
+                    "color": "#7bbd15",
+                    "name": "E-YellowGreen"
+                },
+                {
+                    "slug": "e-darkblue",
+                    "color": "#041b2d",
+                    "name": "E-DarkBlue"
+                },
+                {
+                    "slug": "e-paleblue",
+                    "color": "#05264e",
+                    "name": "E-PaleBlue"
+                },
+                {
+                    "slug": "e-darkgreen",
+                    "color": "#016551",
+                    "name": "E-DarkGreen"
+                },
+                {
+                    "slug": "e-alt-darkblue",
+                    "color": "#001f2c",
+                    "name": "E-Alt-DarkBlue"
+                },
+                {
+                    "slug": "e-text-gray",
+                    "color": "#4f5e64",
+                    "name": "E-Text-Gray"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {
+                            "slug": "e-green",
+                            "color": "#1ca774",
+                            "name": "E-Green"
+                        },
+                        {
+                            "slug": "e-yellowgreen",
+                            "color": "#7bbd15",
+                            "name": "E-YellowGreen"
+                        },
+                        {
+                            "slug": "e-darkblue",
+                            "color": "#041b2d",
+                            "name": "E-DarkBlue"
+                        },
+                        {
+                            "slug": "e-paleblue",
+                            "color": "#05264e",
+                            "name": "E-PaleBlue"
+                        },
+                        {
+                            "slug": "e-darkgreen",
+                            "color": "#016551",
+                            "name": "E-DarkGreen"
+                        },
+                        {
+                            "slug": "e-alt-darkblue",
+                            "color": "#001f2c",
+                            "name": "E-Alt-DarkBlue"
+                        },
+                        {
+                            "slug": "e-text-gray",
+                            "color": "#4f5e64",
+                            "name": "E-Text-Gray"
+                        }
+                    ]
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--e-text-gray)"
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "background": "var(--wp--preset--color--e-green)"
+                },
+                "border": {
+                    "radius": "5px"
+                }
+            }
+        }
+    }
+}
